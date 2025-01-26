@@ -3,9 +3,17 @@
 ESP32 library for sending and receiving Telegram messages.
 
 ## Installation
+### Arduino Library Manager
 
-1. Copy `TelegramESP32.h` and `TelegramESP32.cpp` to your project
-2. Install required libraries:
+You can install this library directly through the Arduino Library Manager. Follow these steps:
+
+1. Open the Arduino IDE.
+2. Navigate to **Sketch > Include Library > Manage Libraries...**.
+3. In the Library Manager, search for "TelegramESP32".
+4. Click on the library in the list.
+5. Click the "Install" button.
+   
+## Install required libraries:
    - ArduinoJson
    - WiFiClientSecure
    - HTTPClient
