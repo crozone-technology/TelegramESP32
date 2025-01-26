@@ -1,5 +1,5 @@
-#ifndef TELEGRAM_ESP32_H
-#define TELEGRAM_ESP32_H
+#ifndef TELEGRAMESP32_H
+#define TELEGRAMESP32_H
 
 #include <WiFiClientSecure.h>
 #include <HTTPClient.h>
