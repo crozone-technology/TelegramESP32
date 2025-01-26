@@ -1,23 +1,19 @@
-# Keywords for TelegramESP32 library
-# Class
-TelegramESP32	KEYWORD1
+TelegramESP32           KEYWORD1
 
-# Methods
-begin	KEYWORD2
-addChat	KEYWORD2
-sendMessage	KEYWORD2
-sendMessageToChat	KEYWORD2
-broadcast	KEYWORD2
-setMessageCallback	KEYWORD2
-setMessageInterval	KEYWORD2
-loop	KEYWORD2
 
-# Constants
-BUFFER_SIZE	LITERAL1
-MAX_CHATS	LITERAL1
-DEFAULT_INTERVAL	LITERAL1
+begin	                KEYWORD2
+addChat                 KEYWORD2
+sendMessage             KEYWORD2
+sendMessageToChat	    KEYWORD2
+broadcast               KEYWORD2
+setMessageCallback      KEYWORD2
+setMessageInterval      KEYWORD2
+loop                    KEYWORD2
 
-# Types
-ChatType	KEYWORD3
-MessageCallback	KEYWORD3
-ChatConfig	KEYWORD3
+BUFFER_SIZE             LITERAL1
+MAX_CHATS               LITERAL1
+DEFAULT_INTERVAL        LITERAL1
+
+ChatType                KEYWORD3
+MessageCallback         KEYWORD3
+ChatConfig              KEYWORD3
