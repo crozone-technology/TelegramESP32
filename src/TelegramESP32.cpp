@@ -94,7 +94,7 @@ bool TelegramESP32::parseMessage(String& payload, String& message) {
   if (result.size() == 0) return false;
 
   JsonVariant lastMsg = result[result.size()-1];
-  lastUpdateId = lastMsg["update_id"].as<unsigned long>();  // อัพเดท lastUpdateId
+  lastUpdateId = lastMsg["update_id"].as<unsigned long>();
   message = lastMsg["message"]["text"] | lastMsg["channel_post"]["text"] | "";
   
   return message != "";
