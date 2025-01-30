@@ -1,6 +1,7 @@
 #ifndef TELEGRAMESP32_H
 #define TELEGRAMESP32_H
 
+#include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
