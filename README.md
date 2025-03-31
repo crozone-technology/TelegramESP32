@@ -1,4 +1,5 @@
 # TelegramESP32 Library
+สามารถอ่านเพิ่มเติมได้ที่บทความนี้ [@YuTTYL](https://medium.com/@yutt.yl/แนวทางการพัฒนา-iot-notification-system-ด้วย-esp32-แจ้งเตือนไปยัง-telegram-แทน-line-notify-c6bec0bd4882)
 
 ESP32 library for sending and receiving Telegram messages.
 
